@@ -1,0 +1,51 @@
+.sectionFirst
+{
+  height:60vh;
+  width:80vw;
+  background-color:#0d7e83;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom:5%;
+  color:white;
+  position:relative;
+
+  .sectionFirst__desc
+  {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:70%;
+    padding-top:23%;
+    padding-left:4%;
+    margin-right:0;
+  }
+
+  .sectionFirst__img{
+    height:40vh;
+    width:auto;
+    position:absolute;
+    top:16%;
+    right:-11%;
+    z-index:1;
+  }
+}
+.sectionFirst__btn
+{
+  display:flex;
+  justify-content: center;
+  align-items:flex-end;
+  height:30%;
+  width:100%;
+
+  .btn__link
+  {
+    text-decoration:none;
+    color:white;
+    height:7%;
+    width:35%;
+    text-align:center;
+    border:1px solid white;
+    padding:1% 4% 5% 4%;
+    border-radius:15px;
+  }
+}

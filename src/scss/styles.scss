@@ -1,8 +1,19 @@
-.header {
-  background: red;
+body
+{
+  height:100%;
+  width:100%;
+  margin:0;
+  font-family:'GeoSansLight';
+}
+@import 'blocs/header.scss';
+@import 'blocs/sectionFirst.scss';
+@import 'config/fonts.scss';
+@import 'blocs/footer.scss';
 
-  h1 {
-    text-align: center;
-    font-size: 50px;
-  }
+.sectionSecond
+{
+  height:60vh;
+  width:80vw;
+  background-color:#ffaf87;
+  margin:0px 10%;
 }
