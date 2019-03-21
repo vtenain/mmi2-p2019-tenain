@@ -3,9 +3,8 @@
   height:60vh;
   width:80vw;
   background-color:#0d7e83;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom:5%;
+  margin: 0% 10% 5% 10%;
+  padding-top:35%;
   color:white;
   position:relative;
 
@@ -15,7 +14,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width:70%;
-    padding-top:23%;
+    padding-top:10%;
     padding-left:4%;
     margin-right:0;
   }
@@ -24,7 +23,7 @@
     height:40vh;
     width:auto;
     position:absolute;
-    top:16%;
+    top:38%;
     right:-11%;
     z-index:1;
   }
@@ -35,17 +34,22 @@
   justify-content: center;
   align-items:flex-end;
   height:30%;
-  width:100%;
+  width:90%;
 
   .btn__link
   {
     text-decoration:none;
     color:white;
-    height:7%;
-    width:35%;
+    height:10%;
+    width:45%;
     text-align:center;
     border:1px solid white;
     padding:1% 4% 5% 4%;
     border-radius:15px;
   }
+}
+.link__arrow
+{
+  padding-left:5%;
+  font-size:80%;
 }

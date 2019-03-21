@@ -1,0 +1,24 @@
+.interSection
+{
+  height:35%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .interSection__title
+  {
+    width:100%;
+    height:100%;
+    font-size:1.7rem;
+    margin-bottom:8%;
+    text-align:center;
+  }
+
+  .interSection__line
+  {
+    width: 50%;
+    border-bottom:1px solid black;
+  }
+}

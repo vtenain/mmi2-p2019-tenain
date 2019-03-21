@@ -1,3 +1,6 @@
+/*{
+  box-sizing:border-box;
+}*/
 body
 {
   height:100%;
@@ -9,11 +12,6 @@ body
 @import 'blocs/sectionFirst.scss';
 @import 'config/fonts.scss';
 @import 'blocs/footer.scss';
+@import 'blocs/sectionSecond.scss';
+@import 'blocs/interSection.scss';
 
-.sectionSecond
-{
-  height:60vh;
-  width:80vw;
-  background-color:#ffaf87;
-  margin:0px 10%;
-}

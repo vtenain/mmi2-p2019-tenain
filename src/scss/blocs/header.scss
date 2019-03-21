@@ -1,8 +1,14 @@
+html{
+  scroll-behavior: smooth;
+}
 .header
 {
-  height:15vh;
+  height:17vh;
   width:100%;
   color:#13293d;
+  background-color:white;
+  position:fixed;
+  z-index:100;
 
   .header__title
   {
@@ -23,7 +29,8 @@
 {
   position:absolute;
   color:white;
-  top:5.5%;
+  top:50%;
+  transform: translateY(-50%);
   right:4%;
   font-size:1.5rem;
   background-color:#13293d;
