@@ -1,7 +1,21 @@
 .sectionSecond
 {
-  height:60vh;
+  height:137vh;
   width:80vw;
-  margin:5% 10%;
+  margin:10% auto 0% auto;
   background-color:#eef0f2;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+  .sectionSecond__text{
+    text-align:justify;
+    width:90%;
+    font-size:1.15rem;
+
+  }
+  .sectionSeconde__img{
+    width:80%;
+    height:auto;
+  }
 }
