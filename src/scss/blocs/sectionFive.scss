@@ -1,5 +1,5 @@
 .sectionFive{
-  height:110vh;
+  height:150vh;
   width:100%;
   margin:5% auto 0% auto;
 }
@@ -9,14 +9,17 @@
   align-items:center;
   width:100%;
   height:100%;
+  font-size:1.15rem;
+
+  .presentationMono__title
+  {
+    text-align:center;
+    width:90%;
+    border: 2px solid #ffaf87;
+    padding:1%;
+  }
 }
-.presentationMono__title
-{
-  text-align:center;
-  width:90%;
-  border: 2px solid #ffaf87;
-  padding:1%;
-}
+
 .Mono
 {
   display:flex;
@@ -28,14 +31,15 @@
   border:1px solid #eef0f2;
   border-radius:20px;
   background-color:#eef0f2;
-}
-.Mono__desc
-{
-  width:80%;
-  text-align:justify;
-}
-.Mono__img
-{
-  height:80%;
 
+  .Mono__desc
+  {
+    width:80%;
+    text-align:justify;
+  }
+  .Mono__img
+  {
+    height:30%;
+
+  }
 }
