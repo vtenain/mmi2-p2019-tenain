@@ -1,12 +1,14 @@
 .sectionFirst
 {
-  height:60vh;
+  height:55vh;
   width:80vw;
   background-color:#0d7e83;
   margin: 0% auto 5% auto;
   padding-top:35%;
   color:white;
   position:relative;
+  display:flex;
+  flex-direction: column;
 
   .sectionFirst__desc
   {
@@ -14,8 +16,9 @@
     flex-direction: column;
     justify-content: flex-start;
     width:70%;
-    padding-top:10%;
+    height:60%;
     padding-left:4%;
+    padding-bottom:5%;
     margin-right:0;
   }
 
@@ -23,8 +26,8 @@
     height:40vh;
     width:auto;
     position:absolute;
-    top:38%;
-    right:-11%;
+    top:37%;
+    right:-9%;
     z-index:1;
   }
 }
@@ -35,6 +38,7 @@
   align-items:flex-end;
   height:30%;
   width:90%;
+  margin-top:0%;
 
   .btn__link
   {
