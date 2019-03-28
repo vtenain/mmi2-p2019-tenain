@@ -160,3 +160,150 @@
 
 }
 
+
+@media (min-width:960px) and (max-width:1279px) {
+
+/*****************************************************Header*********************************************/
+  .title__h1
+    {
+      font-size:4rem !important;
+    }
+/*****************************************************Section First*********************************************/
+
+  .sectionFirst
+  {
+    height:30vh;
+    width:85vw;
+    padding-top:35% !important;
+
+    .sectionFirst__desc
+    {
+      width:80%;
+      font-size:2.2rem !important;
+      margin-top:-30%;
+    }
+
+    .sectionFirst__img{
+      height:60vh;
+      position:absolute;
+      top:20%;
+      right:-8%;
+    }
+  }
+  .sectionFirst__btn
+  {
+    margin-top:25%;
+
+    .btn__link
+    {
+      width:40%;
+      padding:1% 4% 6% 4%;
+      font-size:2rem;
+    }
+  }
+
+/*****************************************************Intersections*********************************************/
+  .interSection__title
+  {
+    font-size:3rem !important;
+  }
+  .interSection2
+  {
+    margin-top:5%;
+  }
+  #interSection{
+  margin-top:-10%;
+  }
+
+/*****************************************************Section Second*********************************************/
+
+  .sectionSecond
+  {
+    height:130vh;
+    width:90vw;
+    margin:10% auto 0% auto;
+
+    .sectionSecond__text{
+      width:90%;
+      font-size:1.8rem;
+
+    }
+    .sectionSeconde__img{
+      width:50%;
+    }
+  }
+
+/*****************************************************Section Three*********************************************/
+
+  .sectionThree
+  {
+    height:65vh;
+    width:90vw;
+  }
+  .sectionThree__text{
+      font-size:1.8rem;
+
+    .text__img{
+      width:30%;
+    }
+    .text__title{
+      margin-bottom:5%;
+    }
+  }
+
+/*****************************************************Section Four*********************************************/
+
+  .sectionFour
+  {
+    height:120vh;
+  }
+  .presentationMini{
+    font-size:1.8rem;
+  
+    .Mini__img{
+      height:auto;
+      width: 25%;
+    }
+  }
+
+/*****************************************************Section Five*********************************************/
+
+  .sectionFive{
+    height:150vh;
+    margin:10% auto 0% auto;
+  }
+  .presentationMono{
+    font-size:1.8rem;
+  
+    .Mono__img
+      {
+        height:40% !important;
+        width:auto;
+
+      }
+  }
+
+/*****************************************************Section Six*********************************************/
+
+  .sectionSix{
+    height:375vh;
+    margin:2% auto 0% auto;
+
+    .sectionSix__caracteristique{
+      height:30% !important;
+      width:80%;
+      margin:5%;
+      font-size:1.8rem;
+      padding:2%;
+    }
+  }
+
+/*****************************************************Footer*********************************************/
+
+  .footer
+  {
+    font-size:2.5rem;
+  }
+
+
+}
