@@ -1,0 +1,162 @@
+@media (min-width:375px) and (max-width:414px) {
+  .sectionSecond{
+    height:107vh;
+  }
+  .sectionThree{
+    height:75vh;
+  }
+  .sectionFive{ 
+    height:130vh;
+  }
+  #interSection{
+    margin-top:-30%;
+  }
+  .sectionFirst__img{
+    position:absolute;
+    top:32% !important;
+    right:-12% !important;
+  }
+}
+@media (min-width:415px) and (max-width:959px) {
+
+/*****************************************************Header*********************************************/
+  .title__h1
+    {
+      font-size:3.5rem !important;
+    }
+
+/*****************************************************Section First*********************************************/
+  .sectionFirst
+  {
+    height:40vh;
+    width:85vw;
+
+    .sectionFirst__desc
+    {
+      width:70%;
+      font-size:1.5rem !important;
+    }
+
+    .sectionFirst__img{
+      height:35vh;
+      position:absolute;
+      top:30%;
+      right:-8%;
+    }
+  }
+  .btn__link
+  {
+      width:35% !important;
+      padding:2% 4% 5% 4% !important;
+      font-size:1.7rem;
+      margin-bottom:4%;
+  }
+  .link__arrow
+  {
+    font-size:90% !important;
+  }
+  
+/*****************************************************Intersections*********************************************/
+  .interSection__title
+  {
+    font-size:2.2rem !important;
+  }
+  .interSection2
+  {
+    margin-top:8%;
+  }
+  #interSection{
+  margin-top:-20%;
+}
+/*****************************************************Section Second*********************************************/
+
+  .sectionSecond
+  {
+    height:80vh;
+    width:90vw;
+    margin:10% auto 0% auto;
+    .sectionSecond__text{
+      font-size:1.6rem;
+
+    }
+    .sectionSeconde__img{
+      width:80%;
+      height:auto;
+    }
+  }
+
+/*****************************************************Section Three*********************************************/
+  .sectionThree
+  {
+    height:45vh;
+    width:95vw;
+  }
+  .sectionThree__text{
+      width: 90%;
+      font-size:1.6rem;
+
+    .text__img{
+      width:40%;
+    }
+    .text__title
+    {
+      border:4px solid #ffaf87;
+      font-size:1.8rem;
+      margin-bottom:8%;
+    }
+  }
+
+/*****************************************************Section Four*********************************************/
+  .sectionFour
+  {
+    height:62vh;
+  }
+  .presentationMini__title{
+    padding-bottom:8%;
+    font-size:1.8rem;
+  }
+  .Mini__desc{
+      margin:0;
+      color:white;
+      width:90%;
+      padding-top:3%;
+      font-size:1.6rem;
+  }
+
+/*****************************************************Section Five*********************************************/
+
+  .sectionFive{
+    height:90vh;
+  }
+  .presentationMono__title
+  {
+    border: 4px solid #ffaf87;
+    font-size:1.8rem;
+  }
+
+  .Mono__desc
+  {
+    width:80%;
+    font-size:1.6rem;
+  }
+
+/*****************************************************Section Six*********************************************/
+  .sectionSix{
+    height:170vh;
+
+    .sectionSix__caracteristique{
+      height:20%;
+      width:80%;
+      border: 3px solid #13293d;
+      font-size:1.6rem;
+    }
+  }
+/*****************************************************Section Six*********************************************/
+ .footer
+  {
+    font-size:1.8rem;
+  }
+
+
+}
+
