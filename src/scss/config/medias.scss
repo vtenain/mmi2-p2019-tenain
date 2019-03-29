@@ -517,5 +517,203 @@
     font-size:1.5rem;
   }
 
+}
+
+
+@media (min-width:1400px) and (max-width:1920px) {
+
+/*****************************************************Header*********************************************/
+  .header
+  {
+    height:14vh;
+  }
+  .title__h1
+    {
+      font-size:3rem;
+    }
+
+/*****************************************************Intersections*********************************************/
+
+  .interSection__title
+    {
+      font-size:2.5rem !important;
+      margin-bottom:3% !important;
+      text-align:center;
+    }
+
+    .interSection__line
+    {
+      width: 50%;
+      border-bottom:1px solid black;
+    }
+
+  .interSection2
+  {
+    margin-top:14%;
+  }
+
+  #interSection{
+    margin-top:-1%;
+  }
+
+/*****************************************************Section First*********************************************/
+
+   .sectionFirst
+  {
+    height:20vh;
+    width:85vw;
+    padding-top:35% !important;
+    margin-bottom:2%;
+
+    .sectionFirst__desc
+    {
+      width:80%;
+      font-size:2rem !important;
+      margin-top:-30%;
+    }
+
+    .sectionFirst__img{
+      height:55vh !important;
+      position:absolute;
+      top:22%;
+      right:-5%;
+    }
+  }
+  .sectionFirst__btn
+  {
+    margin-top:23%;
+
+    .btn__link
+    {
+      width:25%;
+      padding:1% 2% 4.5% 2%;
+      font-size:2.4rem;
+    }
+  }
+
+/*****************************************************Section Second*********************************************/
+
+  .sectionSecond
+  {
+    height:57vh;
+    width:100vw;
+    margin:5% auto 0% auto;
+    background-color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    position: relative;
+
+    .sectionSecond__text{
+      width:65%;
+      height:75vh;
+      margin-top:8%;
+      font-size:1.9rem;
+      display:flex;
+      align-items: center;
+      background-color:#eef0f2;
+
+    }
+    .sectionSeconde__img{
+      width:40%;
+      position:absolute;
+      top:23%;
+      left:55%;
+      height:auto;
+    }
+  }
+  .sectionSecond__text__p{
+    width:70%;
+    margin-left:5%;
+  }
+
+/*****************************************************Section Three*********************************************/
+
+    .sectionThree
+  {
+    height:25vh;
+    width:100vw;
+  }
+  .sectionThree__text{
+      width: 50%;
+      font-size:1.9rem;
+
+    .text__img{
+      width:30%;
+    }
+    .text__title
+    {
+      margin-bottom:5%;
+    }
+  }
+
+/*****************************************************Section Four*********************************************/
+
+  .sectionFour
+  {
+    height:120%;
+  }
+  .presentationMini{
+    font-size:1.9rem;
+
+    .presentationMini__title{
+    margin-top:13%;
+    padding-bottom:5%;
+    }
+  }
+  .Mini__img{
+    margin-top:5%;
+    margin-bottom:2%;
+    height:auto;
+    width:15%;
+  }
+
+/*****************************************************Section Five*********************************************/
+
+  .sectionFive{
+    height:90vh;
+  }
+  .presentationMono{
+    font-size:1.9rem;
+  }
+  .Mono__desc
+    {
+      width:90%;
+      text-align:justify;
+    }
+  .Mono__img
+    {
+      height:35%;
+
+    }
+
+/*****************************************************Section Six*********************************************/
+
+  .sectionSix{
+    height:150vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .sectionSix__caracteristique{
+      height:35%;
+      width:35%;
+      margin:2%;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-size:1.9rem;
+    }
+  }
+
+/*****************************************************Footer*********************************************/
+
+  .footer
+  {
+    height:12vh;
+    font-size:1.7rem;
+  }
 
 }
